@@ -14,11 +14,17 @@ Consider how good commits can help you:
 
 Consider these [tips](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html):
 
+### DO
+
 - Only make one change per commit
 - Make the whole change in one commit
 - Document what you have changed
 - Document why you made the change
 - Never commit code that's been commented out
+- Write the summary line and description of what you have done in the imperative mode, that is as if you were commanding someone. Write "fix", "add", "change" instead of "fixed", "added", "changed".
+
+### DON'T
+- Don't end the summary line with a period - it's a title and titles don't end with a period.
 
 Structure your commit message like this (from [Git: 5.2 Distributed Git - Contributing to a Project](http://git-scm.com/book/ch5-2.html)):
 
@@ -37,12 +43,7 @@ Further paragraphs come after blank lines.
  conventions vary here
 ```
 
-### DO
-- Write the summary line and description of what you have done in the imperative mode, that is as if you were commanding someone. Write "fix", "add", "change" instead of "fixed", "added", "changed".
 
-
-### DON'T
-- Don't end the summary line with a period - it's a title and titles don't end with a period.
 
 
 - - - 
