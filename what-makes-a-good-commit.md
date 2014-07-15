@@ -1,5 +1,5 @@
 # What makes a good commit?
-***
+
 
 This depends on how you intend to use your repository and Git in general; [there is no single right answer to this question](http://chimera.labs.oreilly.com/books/1230000000561/ch03.html#_what_makes_a_good_commit).  Some people "[use the convention that every commit is buildable](http://chimera.labs.oreilly.com/books/1230000000561/ch03.html#_what_makes_a_good_commit)"--in which commits will generally be larger since they must contain everything required to advance the code from one coherent stage to another.  While others structure commits to take advantage of Git's ability to transmit and reuse them, containing only the changes necessary to do what the commit message says.   This approach likely means that one can use git revert to undo a change, and allows for merging one's branch into other branches to incorporate a new feature.
 
@@ -38,7 +38,7 @@ Further paragraphs come after blank lines.
 - Don't end the summary line with a period - it's a title and titles don't end with a period.
 
 
-***
+- - - 
 
 
 
