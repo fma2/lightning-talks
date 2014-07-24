@@ -18,7 +18,7 @@ Like all functions in Javascript, Underscore functions are objects and values an
 
 
 
-### What types of functions
+### What types of functions?
 
 ![Types of functions](https://lh5.googleusercontent.com/-FG-cgyfx4hc/U9B8lJvQElI/AAAAAAAAWlo/eUnEqw6Tosw/w607-h343-no/Screen+Shot+2014-07-23+at+11.08.33+PM.png)
 
