@@ -8,7 +8,7 @@
                                                                                   \ \____/
                                                                                    \/___/
 
-
+(ascii art c/o [underscore](https://github.com/jashkenas/underscore))
 
 
 ### What is it?
@@ -18,9 +18,9 @@ Like all functions in Javascript, Underscore functions are objects and values an
 
 
 
-### What types of functions
+### What types of functions?
 
-![Types of Underscore.js functions](http://i.minus.com/ibbFprOJGwuqoG.png)
+![Types of functions](https://lh5.googleusercontent.com/-FG-cgyfx4hc/U9B8lJvQElI/AAAAAAAAWlo/eUnEqw6Tosw/w607-h343-no/Screen+Shot+2014-07-23+at+11.08.33+PM.png)
 
 
 
@@ -29,7 +29,7 @@ Like all functions in Javascript, Underscore functions are objects and values an
 Like jQuery, install the Underscore library in your HTML file: 
 
 ```
-	<script type="text/javascript" src="http://	documentcloud.github.com/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
 ```
 
 
@@ -37,6 +37,7 @@ Like jQuery, install the Underscore library in your HTML file:
 
 
 - [Prezi Presentation](http://prezi.com/2uhr7b0ahbh0/?utm_campaign=share&utm_medium=copy)
+- [Code Snippets from Presentation](https://gist.github.com/fma2/acfa77d5a9e4cd6b69a7)
 - [Underscore.js Docs, Tests, etc.](http://underscorejs.org/)
 - [Underscore.js Annotated Source Code](http://underscorejs.org/docs/underscore.html)
 - [Underscore.js on github](https://github.com/jashkenas/underscore)
