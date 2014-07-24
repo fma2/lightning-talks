@@ -37,6 +37,7 @@ Like jQuery, install the Underscore library in your HTML file:
 
 
 - [Prezi Presentation](http://prezi.com/2uhr7b0ahbh0/?utm_campaign=share&utm_medium=copy)
+- [Code Snippets from Presentation](https://gist.github.com/fma2/acfa77d5a9e4cd6b69a7)
 - [Underscore.js Docs, Tests, etc.](http://underscorejs.org/)
 - [Underscore.js Annotated Source Code](http://underscorejs.org/docs/underscore.html)
 - [Underscore.js on github](https://github.com/jashkenas/underscore)
