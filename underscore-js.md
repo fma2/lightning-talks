@@ -20,7 +20,7 @@ Like all functions in Javascript, Underscore functions are objects and values an
 
 ### What types of functions
 
-![Types of Underscore.js functions](http://i.minus.com/ibbFprOJGwuqoG.png)
+![Types of Underscore.js functions](http://i1.minus.com/ibbFprOJGwuqoG.png)
 
 
 
