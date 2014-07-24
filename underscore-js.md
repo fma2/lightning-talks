@@ -29,7 +29,7 @@ Like all functions in Javascript, Underscore functions are objects and values an
 Like jQuery, install the Underscore library in your HTML file: 
 
 ```
-	<script type="text/javascript" src="http://	documentcloud.github.com/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
 ```
 
 
