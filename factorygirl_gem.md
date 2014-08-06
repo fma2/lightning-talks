@@ -78,6 +78,7 @@ You can also use the following in place of "Factory.create( )":
 ### Misc. Resources
 
 
+- [App & Test Example](https://github.com/awesomefoundation/awesomebits/blob/master/spec/factories.rb)
 - [stackoverflow: RSpec + FactoryGirl and controller specs](http://stackoverflow.com/questions/20126078/rspec-factorygirl-and-controller-specs)
 - [stackoverflow: How do I use factories from FactoryGirl in rails console?](http://stackoverflow.com/questions/18195851/how-do-i-use-factories-from-factorygirl-in-rails-console)
 - [Slideshare - Rails Testing: Factories or Fixtures?](http://www.slideshare.net/mtoppa/2014-03-11factorygirl)
