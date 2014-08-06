@@ -9,7 +9,6 @@ var mapFunction = _.map([1, 2, 3], function(num){ return num * 3; });
 // _.each(list, iterator, [context]) 
 var ary = []
 var eachFunction = _.each(["red", "blue", "green"], function(color) { ary.push(color + "!")} );
-
 // var each_function2 = _.each([1, 2, 3], alert);
 
 
@@ -41,9 +40,9 @@ var firstCohorts = _.first(["Newts", "Woodchucks", "Caterpillars","Cicadas"], 2)
 
 // difference
 //_.difference(array, *others) 
-var ary = [1, 2, 3, 4, 5]
-var ary2 = [5, 2, 10]
-var findDifferences = _.difference(ary,ary2 );
+var ary2 = [1, 2, 3, 4, 5]
+var ary3 = [5, 2, 10]
+var findDifferences = _.difference(ary2,ary3 );
 
 
 
@@ -51,6 +50,7 @@ var findDifferences = _.difference(ary,ary2 );
 // FUNCTION FUNCTIONS (kind of like procs & lambdas in ruby)
 
 // compose
+// Returns the composition of a list of functions, where each function consumes the return value of the function that follows.
 // _.compose(*functions) 
 var hello = function(name){ return "hi: " + name; };
 var yell  = function(statement){ return statement.toUpperCase() + "!"; };
