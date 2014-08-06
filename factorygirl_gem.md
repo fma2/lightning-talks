@@ -2,9 +2,9 @@
 
 Setting up test data is important for writing good tests.  [Factory Girl](https://github.com/thoughtbot/factory_girl_rails) is a factory plug-in that allows you to create objects for your tests, hence the name "Factory" girl.   
 
-By default, Rails provides fixtures for sample data, and factory_girl is a fixtures replacement.  Factory advocates claim, compared to fixtures, factories are less brittle, have less external dependency, and more flexibility (you don't have to provide more data than you need to have your tests work).  For more on this, see misc. resources links below.
+By default, Rails provides [fixtures](http://guides.rubyonrails.org/testing.html#the-low-down-on-fixtures) for sample data, and factory_girl is a fixtures replacement.  Advocates for factories for tests claim, compared to fixtures, factories are less brittle, have less external dependency, and more flexibility (you don't have to provide more data than you need to have your tests work).  For more on this, see misc. resources links below.
 
-Overall, testing without sample data from a factory or a fixture might work for simple cases, but will likely not for more complex cases.
+Overall, testing without any sample data--from a factory or a fixture--might work for simple cases, but will likely not for more complex cases.
 
 Example of test code without factory_girl/any other factories or fixtures:
 
@@ -19,7 +19,7 @@ end
 		#even if your test/s doesn't/don't need that particular data to work.
 
 ```
-
+See below for how to test with factory_girl.
 
 ### Configuration
 
