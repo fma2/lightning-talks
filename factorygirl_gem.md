@@ -33,9 +33,6 @@ Remember to run bundle install.
 
 ### Usage
 
-
-***WITH factory_girl***
-
 Place your factory in the spec directory, name your file 'factories.rb'.  Here are examples of factories:
 
 ```
@@ -75,10 +72,12 @@ You can also use the following in place of "Factory.create( )":
 
 ### Docs
 
+
 - [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
 - [factory_girl](https://github.com/thoughtbot/factory_girl)
 
 ### Misc. Resources
+
 
 - [stackoverflow: RSpec + FactoryGirl and controller specs](http://stackoverflow.com/questions/20126078/rspec-factorygirl-and-controller-specs)
 - [stackoverflow: How do I use factories from FactoryGirl in rails console?](http://stackoverflow.com/questions/18195851/how-do-i-use-factories-from-factorygirl-in-rails-console)
