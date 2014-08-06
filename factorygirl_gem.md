@@ -1,5 +1,4 @@
 # factorygirl gem
-===
 
 Setting up test data is important for writing good tests.  [Factory Girl](https://github.com/thoughtbot/factory_girl_rails) is a factory plug-in that allows you to create objects for your tests, hence the name "Factory" girl.   
 
