@@ -35,7 +35,7 @@ Remember to run bundle install.
 Place your factory in the spec directory, name your file 'factories.rb'.  Here are examples of factories:
 
 ```
-Factory.define :user do |f|
+FactoryGirl.define :user do |f|
 	f.username “foo”
 	f.password “foobar”
 	f.email “foo@example.com”
@@ -52,7 +52,7 @@ Here is what your rspec file would look like:
 ```
 describe User do
 	it "authenticate with matching username and password" do
-		user = Factory.create(:user, :username => "Farheen", :password => "secret")
+		user = FactoryGirl.create(:user, :username => "Farheen", :password => "secret")
 	end
 end
 
@@ -61,9 +61,9 @@ Notice that the first argument after Factory.create is the name of the factory t
 
 You can also use the following in place of "Factory.create( )":
 
-- Factory.build( ) 
-- Factory.attributes_for( )
-- Factory( ) => this does the same thing as Factory.create
+- FactoryGirl.build( ) 
+- FactoryGirl.attributes_for( )
+- FactoryGirl( ) => this does the same thing as Factory.create
 
 
 
