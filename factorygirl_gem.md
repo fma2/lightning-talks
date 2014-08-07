@@ -26,7 +26,7 @@ See below for how to test with factory_girl.
 
 Add factory_girl_rails to your Gemfile:
 
-```
+```ruby
 gem 'factory_girl_rails'
 ```
 Remember to run bundle install.
@@ -35,7 +35,7 @@ Remember to run bundle install.
 
 Place your factory in the spec directory, name your file 'factories.rb'.  Here are examples of factories:
 
-```
+```ruby
 FactoryGirl.define :user do |f|
 	f.username “foo”
 	f.password “foobar”
