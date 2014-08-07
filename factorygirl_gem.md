@@ -8,10 +8,11 @@ Overall, testing without any sample data--from a factory or a fixture--might wor
 
 Example of test code without factory_girl/any other factories or fixtures:
 
-```
+```ruby
 describe User do
 	it "authenticate with matching username and password" do
 		user = User.create!(:username => "Farheen", :password => "secret", :email => '...') 
+		# ... some arguments
 	end	
 end
 
