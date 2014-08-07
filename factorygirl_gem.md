@@ -66,7 +66,7 @@ end
 ```
 Notice that the first argument after Factory.create is the name of the factory that you want to use and the arguments that follow are the fields you want to change 
 
-You can also use the following in place of "Factory.create( )":
+You can also use the following in place of "FactoryGirl.create( )":
 
 - FactoryGirl.build( ) 
 - FactoryGirl.attributes_for( )
