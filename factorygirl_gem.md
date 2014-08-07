@@ -55,8 +55,11 @@ Here is what your rspec file would look like:
 describe User do
 	it "authenticate with matching username and password" do
 		user = FactoryGirl.create(:user)
+		
 		#OR, to change 
 		#user = FactoryGirl.create(:user, :username => "Farheen", :password => "secret")
+		
+		# ... some arguments
 	end
 end
 
