@@ -7,7 +7,7 @@ The Ruby gem for Redis acts as a thin layer over the standard Redis API ([source
 
 #### Usage
 
-To get going with Redis, you first must download and install it.  Detailed instructors can be found [here](http://redis.io/download) and [here](http://jimneath.org/2011/03/24/using-redis-with-ruby-on-rails.html).
+To get going with Redis, you first must download and install it.  Detailed instructions can be found [here](http://redis.io/download) and [here](http://jimneath.org/2011/03/24/using-redis-with-ruby-on-rails.html).
 
 Once it has been successfully installed, it can be run by typing ```redis-server``` in a new terminal window.
 
