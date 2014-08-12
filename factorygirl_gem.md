@@ -2,16 +2,17 @@
 
 Setting up test data is important for writing good tests.  [Factory Girl](https://github.com/thoughtbot/factory_girl_rails) is a factory plug-in that allows you to create objects for your tests, hence the name "Factory" girl.   
 
-By default, Rails provides fixtures for sample data, and factory_girl is a fixtures replacement.  Factory advocates claim, compared to fixtures, factories are less brittle, have less external dependency, and more flexibility (you don't have to provide more data than you need to have your tests work).  For more on this, see misc. resources links below.
+By default, Rails provides [fixtures](http://guides.rubyonrails.org/testing.html#the-low-down-on-fixtures) for sample data, and factory_girl is a fixtures replacement.  Advocates for factories for tests claim, compared to fixtures, factories are less brittle, have less external dependency, and more flexibility (you don't have to provide more data than you need to have your tests work).  For more on this, see misc. resources links below.
 
-Overall, testing without sample data from a factory or a fixture might work for simple cases, but will likely not for more complex cases.
+Overall, testing without any sample data--from a factory or a fixture--might work for simple cases, but will likely not for more complex cases.
 
 Example of test code without factory_girl/any other factories or fixtures:
 
-```
+```ruby
 describe User do
 	it "authenticate with matching username and password" do
 		user = User.create!(:username => "Farheen", :password => "secret", :email => '...') 
+		# ... some arguments
 	end	
 end
 
@@ -19,13 +20,13 @@ end
 		#even if your test/s doesn't/don't need that particular data to work.
 
 ```
-
+See below for how to test with factory_girl.
 
 ### Configuration
 
 Add factory_girl_rails to your Gemfile:
 
-```
+```ruby
 gem 'factory_girl_rails'
 ```
 Remember to run bundle install.
@@ -34,36 +35,42 @@ Remember to run bundle install.
 
 Place your factory in the spec directory, name your file 'factories.rb'.  Here are examples of factories:
 
-```
-Factory.define :user do |f|
-	f.username “foo”
-	f.password “foobar”
-	f.email “foo@example.com”
-end
+```ruby
+FactoryGirl.define do
+  factory :user do
+    sequence(:email) {|n| "email#{n}@gmail.com" }
+    password "password"
+  end
 
-Factory.define :article do |f|
-	f.name “Foo”
-	f.association :user
+  factory :post do
+    sequence(:title) { |n| "New post#{n}" }
+    content "A great post."
+  end
 end
 ```
 
 Here is what your rspec file would look like:
 
-```
+```ruby
 describe User do
 	it "authenticate with matching username and password" do
-		user = Factory.create(:user, :username => "Farheen", :password => "secret")
+		user = FactoryGirl.create(:user)
+		
+		#OR, to change 
+		#user = FactoryGirl.create(:user, :username => "Farheen", :password => "secret")
+		
+		# ... some arguments
 	end
 end
 
 ```
 Notice that the first argument after Factory.create is the name of the factory that you want to use and the arguments that follow are the fields you want to change 
 
-You can also use the following in place of "Factory.create( )":
+You can also use the following in place of "FactoryGirl.create( )":
 
-- Factory.build( ) 
-- Factory.attributes_for( )
-- Factory( ) => this does the same thing as Factory.create
+- FactoryGirl.build( ) 
+- FactoryGirl.attributes_for( )
+- FactoryGirl( ) => this does the same thing as Factory.create
 
 
 
