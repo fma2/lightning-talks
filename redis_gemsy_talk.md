@@ -7,7 +7,7 @@ The Ruby gem for Redis acts as a thin layer over the standard Redis API ([source
 
 #### Usage
 
-To get going with Redis, you first must download and install it.  Detailed instructions can be found [here](http://redis.io/download) and [here](http://jimneath.org/2011/03/24/using-redis-with-ruby-on-rails.html).
+To get going with Redis, you first must download and install it.  Detailed instructions can be found [here](http://redis.io/download) and [here](http://jimneath.org/2011/03/24/using-redis-with-ruby-on-rails.html) and [here](http://jasdeep.ca/2012/05/installing-redis-on-mac-os-x/).
 
 Once it has been successfully installed, it can be run by typing ```redis-server``` in a new terminal window.
 
@@ -69,4 +69,5 @@ Examples of use in a Rails app:
 - [11 Common Web Use Cases Solved In Redis](http://highscalability.com/blog/2011/7/6/11-common-web-use-cases-solved-in-redis.html)
 - [Who's using Redis?](http://redis.io/topics/whos-using-redis)
 - [Redis as the primary data store? WTF?!](https://muut.com/blog/technology/redis-as-primary-datastore-wtf.html)
+- [Using Redis v. MongoDB](http://stackoverflow.com/a/24563536)
 
