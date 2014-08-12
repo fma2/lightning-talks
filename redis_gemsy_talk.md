@@ -1,7 +1,7 @@
 # redis-rb gemsy talk
 
 #### Overview 
-Redis-rb is Ruby client library for [Redis](http://redis.io/), which is "an open source, BSD licensed, advanced key-value cache and store" ([source](http://redis.io/)).  It is very fast and can be used for all kinds of things, including data structures like lists, sets, and hashes. For example, [Resque](https://github.com/defunkt/resque) is built on Redis for "processing background jobs or even scheduled jobs." ([source](http://www.ryanalynporter.com/2012/06/12/simple-redis-caching-in-ruby/)).
+Redis-rb is a Ruby client library for [Redis](http://redis.io/), which is "an open source, BSD licensed, advanced key-value cache and store" ([source](http://redis.io/)).  It is very fast and can be used for all kinds of things, including data structures like lists, sets, and hashes. For example, [Resque](https://github.com/defunkt/resque) is built on Redis for "processing background jobs or even scheduled jobs." ([source](http://www.ryanalynporter.com/2012/06/12/simple-redis-caching-in-ruby/)).
 
 The Ruby gem for Redis acts as a thin layer over the standard Redis API ([source](http://www.ryanalynporter.com/2012/06/12/simple-redis-caching-in-ruby/)).  Using the Redis gem allows you to issue [Redis commands](http://redis.io/commands) in your Rails app.
 
