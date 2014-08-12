@@ -70,4 +70,5 @@ Examples of use in a Rails app:
 - [Who's using Redis?](http://redis.io/topics/whos-using-redis)
 - [Redis as the primary data store? WTF?!](https://muut.com/blog/technology/redis-as-primary-datastore-wtf.html)
 - [Using Redis v. MongoDB](http://stackoverflow.com/a/24563536)
+- [Redis Persistence Power or Redis Use Cases](http://nosql.mypopescu.com/post/836086276/presentation-redis-persistence-power-or-redis-use)
 
