@@ -13,18 +13,18 @@ Once it has been successfully installed, it can be run by typing ```redis-server
 
 Now, add Redis to your Gemfile:
 
-```
+```ruby
 gem 'redis'
 ```
 Then install the gem via Bundler:
 
-```
+```ruby
 bundle install
 ```
 
 Lastly, create an initializer in config/initializers/redis.rb and add the following:
 
-```
+```ruby
 $redis = Redis.new(:host => 'localhost', :port => 6379)
 ```
 
@@ -32,7 +32,7 @@ This will create a new instance of the Redis client, connected to localhost:6379
 
 You can check that everything is working by firing up ```rails console```:
 
-```
+```ruby
 > $redis
 => #<Redis client v2.1.1 connected to redis://localhost:6379/0 (Redis v2.2.2)> 
 > $redis.set('red', 'newts')
