@@ -56,6 +56,7 @@ Examples of use in a Rails app:
 
 - [Redis-rb](https://github.com/redis/redis-rb)
 - [Redis](http://redis.io/)
+- [Redis FAQ](http://redis.io/topics/faq)
 
 ###### *More About Redis*
 
@@ -63,10 +64,9 @@ Examples of use in a Rails app:
 - [Introduction to Using Redis with Rails](http://www.sitepoint.com/introduction-to-using-redis-with-rails/)
 - [Simple Redis Caching in Ruby](http://www.ryanalynporter.com/2012/06/12/simple-redis-caching-in-ruby/)
 - [Interactive Online Tutorial](http://try.redis.io/)
-- [Redis FAQ](http://redis.io/topics/faq)
 - [stackoverflow: What is redis?](http://stackoverflow.com/a/7897243)
 - [Redis Use Cases](http://www.paperplanes.de/2010/2/16/a_collection_of_redis_use_cases.html)
 - [11 Common Web Use Cases Solved In Redis](http://highscalability.com/blog/2011/7/6/11-common-web-use-cases-solved-in-redis.html)
 - [Who's using Redis?](http://redis.io/topics/whos-using-redis)
-- [Redis as the primary data store? WTF?!](Redis as the primary data store? WTF?!)
+- [Redis as the primary data store? WTF?!](https://muut.com/blog/technology/redis-as-primary-datastore-wtf.html)
 
